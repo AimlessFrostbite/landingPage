@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: 'Montserrat';
+}
+
+.brand {
+font-family: 'League Script', cursive;
+}
+
+.welcome {
+  color: white;
+  padding-top: 0.01em;
+  position: relative;
+  top: 300px;
+  left: 350px;
+  width: 50%;
+  height: 50%;
+  background-color: #BFdaede0;
+  text-align: center;
+  overflow: hidden;
+}
+
+.panels {
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+}
+
+.panel {
+  color: white;
+  text-align: center;
+  align-items: center;
+  font-size: 20px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex: 1;
+}
+
+.panel1 { background-image:url(images/flowerpot.jpg); }
+.panel2 { background-image:url(images/raingarden.jpg); }
+.panel3 { background-image:url(images/rubbertree.jpg); }
+.panel4 { background-image:url(images/spinach.jpg); }
+.panel5 { background-image:url(images/suntree.jpg); }
