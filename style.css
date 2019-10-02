@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
   font-family: 'Montserrat';
 }
 
@@ -10,15 +10,14 @@ font-family: 'League Script', cursive;
 
 .welcome {
   color: white;
-  padding-top: 0.01em;
-  position: relative;
+  background-color: #daede0;
+  position: absolute;
   top: 300px;
-  left: 350px;
-  width: 50%;
-  height: 50%;
-  background-color: #BFdaede0;
+  left: 550px;
   text-align: center;
   overflow: hidden;
+  z-index: 1;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .panels {
@@ -38,8 +37,58 @@ font-family: 'League Script', cursive;
   flex: 1;
 }
 
-.panel1 { background-image:url(images/flowerpot.jpg); }
-.panel2 { background-image:url(images/raingarden.jpg); }
-.panel3 { background-image:url(images/rubbertree.jpg); }
-.panel4 { background-image:url(images/spinach.jpg); }
-.panel5 { background-image:url(images/suntree.jpg); }
+.panel1 { background-image:url(images/flowerpot.png); }
+.panel2 { background-image:url(images/raingarden.png); }
+.panel3 { background-image:url(images/rubbertree.png); }
+.panel4 { background-image:url(images/spinach.png); }
+.panel5 { background-image:url(images/suntree.png); }
+
+/* About Page Styles */
+.container {
+  background-color: #daede0;
+}
+
+.row {
+  padding: 50px;
+}
+
+.aboutTitle {
+  text-align: center
+}
+
+#carouselExampleFade {
+  width: 75%;
+  margin: 0 auto;
+}
+
+/* Contact Us Styles */
+
+.contactUs {
+  width: 85%;
+  max-width: 600px;
+  background-color: #daede0;
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 8px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.contactUs .formTitle {
+  margin-top: 0;
+  font-weight: 200;
+}
+
+.inputField {
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+textarea {
+  width: 100%;
+  height: 100%;
+}
